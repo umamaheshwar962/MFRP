@@ -1,0 +1,11 @@
+.footer {
+  background-color: rgb(184, 184, 184);
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  button {
+    &:focus {
+      outline: none;
+    }
+  }
+}

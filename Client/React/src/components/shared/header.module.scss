@@ -1,0 +1,38 @@
+.header {
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  background-color: rgb(184, 184, 184);
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0;
+    svg {
+      width: 18px;
+      margin-right: 5px;
+    }
+    h1 {
+      margin: auto;
+    }
+  }
+  button {
+    padding: 5px 10px;
+    background-color: black;
+    a {
+      color: rgb(255, 255, 255);
+    }
+    &:hover {
+      background-color: white;
+      a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+      }
+    }
+    &:active {
+      a {
+        color: white;
+      }
+    }
+  }
+}
